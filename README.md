@@ -11,11 +11,11 @@ This repository provides in-depth knowledge, exploitation techniques, and PoCs t
 
 # USES
 
-``python cors_exploit.py -t "https://victim.com/api" -a "evil.attacker.com"``
+``python cors-exploit.py -t "https://victim.com/api" -a "evil.attacker.com"``
 
-``python cors_exploit.py -t "https://victim.com/api" -a "evil.attacker.com" -c "your_session_cookie"``
+``python cors-exploit.py -t "https://victim.com/api" -a "evil.attacker.com" -c "your_session_cookie"``
 
-``python cors_exploit.py -t "https://victim.com/api" -a "evil.attacker.com" -H "Authorization: Bearer XYZ123" "X-Requested-With: XMLHttpRequest"``
+``python cors-exploit.py -t "https://victim.com/api" -a "evil.attacker.com" -H "Authorization: Bearer XYZ123" "X-Requested-With: XMLHttpRequest"``
 
 
 # SPECORS.PY
