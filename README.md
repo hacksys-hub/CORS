@@ -11,16 +11,12 @@ This repository provides in-depth knowledge, exploitation techniques, and PoCs t
 
 # USES
 
- python3 cors/cors-exploit.py -h
-usage: cors-exploit.py [-h] -d DOMAIN -t TARGET [-c COOKIE]
+``python cors_exploit.py -t "https://victim.com/api" -a "evil.attacker.com"``
 
-CLI-Based CORS Exploitation Tool
+``python cors_exploit.py -t "https://victim.com/api" -a "evil.attacker.com" -c "your_session_cookie"``
 
-options:
-  -h, --help           show this help message and exit
-  -d, --domain DOMAIN  Attacker-controlled free domain
-  -t, --target TARGET  Target URL to exploit
-  -c, --cookie COOKIE  Session cookie (optional)
+``python cors_exploit.py -t "https://victim.com/api" -a "evil.attacker.com" -H "Authorization: Bearer XYZ123" "X-Requested-With: XMLHttpRequest"``
+
 
 # SPECORS.PY
 This tool helps security researchers detect **CORS misconfigurations** in web applications. It performs **fast, multi-threaded scanning** using multiple HTTP methods to identify security risks that allow unauthorized access.
