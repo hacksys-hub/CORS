@@ -4,6 +4,8 @@ This repository provides in-depth knowledge, exploitation techniques, and PoCs t
 
 
 
+
+
 ![1](https://github.com/user-attachments/assets/ec2a819a-5fdf-4427-850e-276b262150f9)
 
 
@@ -19,6 +21,26 @@ options:
   -d, --domain DOMAIN  Attacker-controlled free domain
   -t, --target TARGET  Target URL to exploit
   -c, --cookie COOKIE  Session cookie (optional)
+
+# SPECORS.PY
+This tool helps security researchers detect **CORS misconfigurations** in web applications. It performs **fast, multi-threaded scanning** using multiple HTTP methods to identify security risks that allow unauthorized access.
+
+Features:
+---------
+✔ Scans single URLs or bulk URLs from a file (`urls.txt`).  
+✔ Uses **GET, POST, OPTIONS, PUT, DELETE, PATCH** for accurate detection.  
+✔ Checks headers like `Access-Control-Allow-Origin`, `Credentials`, and `Methods`.  
+✔ **Multi-threaded scanning** for speed and efficiency.  
+✔ **Saves vulnerable URLs** for further analysis.  
+✔ **Colorful UI** for an improved user experience.  
+
+Usage:
+------
+1️⃣ Run the script and choose **single URL** or **multiple URLs from a file**.  
+2️⃣ The tool will **automatically scan for CORS vulnerabilities**.  
+3️⃣ If vulnerabilities are found, they will be **displayed in red** and optionally saved to a file.  
+
+Made by Spector-Sec 🚀
 
 
 
